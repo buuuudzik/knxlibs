@@ -1,8 +1,8 @@
 const libs = {};
 
-libs.gaPattern = /^(\d{2})\/(\d{1})\/(\d{3})$/g;
-// ranges: main = 0..31, middle = 0..7, sub = 0..255
 // source https://support.knx.org/hc/en-us/articles/115003188109-Group-Addresses
+// ranges: main = 0..31, middle = 0..7, sub = 0..255
+libs.gaPattern = /^(\d{2})\/(\d{1})\/(\d{3})$/g;
 const subLength = 256;
 const mainLength = 8 * subLength;
 
